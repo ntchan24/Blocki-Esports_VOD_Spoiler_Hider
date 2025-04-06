@@ -1,0 +1,8 @@
+/* This CSS file will only apply styles when triggered by the content script */
+.yt-hide-comments #comments {
+  display: none !important;
+}
+
+.yt-hide-seekbar .ytp-chrome-bottom {
+  display: none !important;
+}
