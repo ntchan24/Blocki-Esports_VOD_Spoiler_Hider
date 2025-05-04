@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Esports VOD Spoiler Hider",
+  "name": "Blocki",
   "version": "1.0",
   "description": "Hides YouTube comments and seek bar to prevent spoilers",
   "permissions": ["activeTab", "scripting"],
