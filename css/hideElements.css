@@ -1,8 +1,22 @@
-/* This CSS file will only apply styles when triggered by the content script */
-.yt-hide-comments #comments {
+/* This CSS file applies styles when triggered by the content script */
+.yt-hide-comments #comments,
+.yt-hide-comments ytd-comments,
+.yt-hide-comments tp-yt-paper-listbox#sections {
   display: none !important;
 }
 
-.yt-hide-seekbar .ytp-chrome-bottom {
+.yt-hide-seekbar .ytp-chrome-bottom,
+.yt-hide-seekbar .ytp-progress-bar-container,
+.yt-hide-seekbar .ytp-chrome-controls {
+  display: none !important;
+}
+
+/* Hide the preview thumbnails that appear when hovering over the progress bar */
+.yt-hide-seekbar .ytp-tooltip {
+  display: none !important;
+}
+
+/* Hide the mini-player progress bar that appears at the bottom */
+.yt-hide-seekbar .ytp-miniplayer-progress-bar {
   display: none !important;
 }
