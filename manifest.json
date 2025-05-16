@@ -3,7 +3,7 @@
   "name": "Blocki",
   "version": "1.0",
   "description": "Hides YouTube comments and seek bar to prevent spoilers",
-  "permissions": ["activeTab", "scripting", "storage"],
+  "permissions": ["activeTab", "storage"],
   "action": {
     "default_popup": "popup/popup.html",
     "default_icon": {
@@ -25,3 +25,4 @@
     "128": "images/icon128.png"
   }
 }
+
